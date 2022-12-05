@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "CenterNet2"
+version = "0.4.1"
+authors = [
+  { name="Xingyi Zhou", email="zhouxy2017@gmail.com" },
+]
+description = "Two-stage CenterNet"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.8"
+classifiers = []
+
+[project.urls]
+"Homepage" = "https://github.com/xingyizhou/CenterNet2"
+"Bug Tracker" = "https://github.com/xingyizhou/CenterNet2/issues"
